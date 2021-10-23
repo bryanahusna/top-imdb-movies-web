@@ -10,12 +10,24 @@
 </head>
 
 <body>
-    <h1>Top Movies</h1>
-    <h3>According to IMDB</h3>
+    <h1 id="mainTitle">Top Movies</h1>
+    <h3 id="mainSubTitle">According to IMDB</h3>
     <div id="contentPage" class="contentPage">
         <h3><em>Loading...</em></h3>
         <table id="contentTable">
         </table>
+    </div>
+    <div id="overlayDetail" class="overlayDetail">
+        <div id="overlayDetailContent">
+            <div id="overlayFilmImg">
+                <img src="./raw/lotr.jpg">
+            </div>
+            <div id="overlayFilmDetail">
+                <h3>The Lord of the Ring (2009)</h3>
+                <p>8.8 score from 37000 ratings</p>
+                <button id="gotoImdbPage">Go to IMDb Page</button>
+            </div>
+        </div>
     </div>
     <div id="navPage">
         <a id="page1" class="navbutton-active">1</a>&nbsp;&nbsp;
@@ -24,6 +36,10 @@
         <a id="page4" class="navbutton">4</a>&nbsp;&nbsp;
         <a id="page5" class="navbutton">5</a>&nbsp;&nbsp;
     </div>
+
+    <footer>
+        <p>Created by Bryan Amirul Husna</p>
+    </footer>
 </body>
 
 </html>
